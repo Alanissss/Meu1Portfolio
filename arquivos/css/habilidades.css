@@ -1,0 +1,110 @@
+#habilidades {
+    background-color: #8d49cc;
+    }
+    
+    .habilidades-pd {
+    padding-top: 93px;
+    }
+    
+    .habilidades-pd h2 {
+    text-align: center;
+    padding-bottom: 70px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .skills-descricao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 50px;
+    padding-bottom: 70px;
+    }
+    
+    .conteiner-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 37px;
+    max-width: 55%;
+    margin: 0 auto;
+    }
+    
+    .skill-box {
+    height: 106px;
+    width: 106px;
+    background-color: #472666;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: ease-in-out 0.3s;
+    }
+    
+    .skill-box:hover {
+    background-color: #fff;
+    transform: scale(1.05);
+    }
+    
+    .skill-box .icones-habilidades {
+    transition: ease-in-out 0.3s;
+    }
+    
+    .conteiner-descricao {
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    max-width: 80%;
+    }
+    
+    @media (max-width: 1200px) {
+    .conteiner-descricao {
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    #habilidades {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .skills-descricao {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    gap: 50px;
+    padding-bottom: 70px;
+    align-items: center;
+    }
+    
+    .skills-descricao p {
+    text-align: center;
+    }
+    }
+    
+    @media (max-width: 950px) {
+    .conteiner-skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 37px;
+    max-width: 300px;
+    }
+    
+    .conteiner-descricao {
+    max-width: 300px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    }
+
+
+
+
